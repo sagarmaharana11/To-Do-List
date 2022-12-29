@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Todo List Web App </title>
+   <link rel = "icon" href = 
+"/favicon-16x16.png" 
+        type = "image/x-icon">
+</head>
+
+<body>
+  
+  <div class="bg-animation">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="stars4"></div>
+    </div>
+  
+  <nav class="navbar navbar-light bg-light">
+    <div class="logo-image">
+            <img src="/favicon-32x32.png" class="img">
+      </div>
+    <div class="container">
+      <a class="navbar-brand" href="#">To-Do List Web App</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <form id="form-Task">
+              <div class="form-group">
+                <input type="text" id="title" class="form-control" maxlength="50" autocomplete="off" placeholder="Title"
+                  required>
+              </div>
+              <div class="form-group">
+                <input type="datetime-local" id="Date" class="form-control" maxlength="50" autocomplete="off"
+                  placeholder="Date" required>
+              </div>
+              <div class="form-group">
+                <textarea type="text" id="description" cols="30" rows="10" class="form-control" maxlength="500"
+                  autocomplete="off" placeholder="Description" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-success btn-block">Save</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-sm-3 text-left title-head">
+            <p class="font-weight-bold">Title</p>
+          </div>
+          <div class="col-sm-3 text-left date-head">
+            <p class="font-weight-bold">Date</p>
+          </div>
+          <div class="col-sm-6 text-left desc-head">
+            <p class="font-weight-bold">Description</p>
+          </div>
+          <div class="col-sm-3 text-right del-head">
+            <p class="font-weight-bold">Delete</p>
+          </div>
+        </div>
+        <hr>
+        <div id="tasks"></div>
+
+      </div>
+
+    </div>
+
+  </div>
+<div class="theme-container shadow-dark">
+  <img id="theme-icon"    src="https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg" alt="ERR">
+</div>
+<p style="background-color:#FFC300;">Sagar and Sourav &copy;</p>
+  <script src="app.js"></script>
+</body>
+
+</html>
