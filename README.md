@@ -8,3 +8,7 @@ To Do Listings is a straightforward HTML, CSS, and JavaScript project. Regarding
 #How To Run the Project?
 
 To run this project, you don’t need to have any kind of local server but yet a browser. We recommend you to use modern browsers like Google Chrome and Mozilla Firefox. To run this system, first, open the project in your browser by clicking the index.html file.
+
+Sample Video !
+
+![ezgif-4-5359326a2d](https://user-images.githubusercontent.com/84629279/209973888-8fa1353c-cf6a-47c2-a533-2bff63afb05d.gif)
